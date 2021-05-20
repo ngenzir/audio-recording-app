@@ -4,7 +4,7 @@ import time
 
 
 print ("Recording video...")
-response = requests.get("http://stream.umuzamu.rw:8006/radiorwanda")
+response = requests.get("http://197.243.1.130:8006/k2dlivemp3")
 filename = time.strftime("%Y%m%d%H%M%S",time.localtime())+".avi"
 f = open(filename, 'wb')
 
